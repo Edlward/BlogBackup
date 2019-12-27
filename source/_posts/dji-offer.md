@@ -11,6 +11,7 @@ categories: 记录
 tags: 
 	- 记录
 ---
+![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_offer1.png)
 
 > 写在前面的话：2020秋招形式严峻，此间过程也是十分心酸，能拿到理想的offer，也是十分幸运，希望“疆”来继续up~。
 
@@ -173,6 +174,12 @@ tags:
 
 ## 8."疆"来有你
 - 签约三方后送`Mavic Mini`
+    - 2019.12.25拿到mini，期待已久！这天刚好是圣诞节&生日，算是圣诞&生日礼物了 :gift:
+    - 一定是特别的缘分......
+
+![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/mavic-mini.jpg)
+
+
 - `mentor`
     - 一般为入职的老员工（良师益友）
 

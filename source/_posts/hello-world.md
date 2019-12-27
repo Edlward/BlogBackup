@@ -4,9 +4,9 @@ date: 2019-7-24 18:55:21
 cover: true
 toc: true
 summary: Hexo博客搭建过程记录
-categories: 博客
+categories: 笔记
 tags: 
-	- note
+	- 笔记
 ---
 
 ## 1.参考资源

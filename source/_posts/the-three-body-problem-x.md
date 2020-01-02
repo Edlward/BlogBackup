@@ -1,7 +1,7 @@
 ---
 title: 观想之宙
 date: 2019-06-28 21:15:19
-img: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/galaxy.jpg
+img: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/galaxy1.jpg
 top: false
 cover: true
 coverImg: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/galaxy.jpg

@@ -1,11 +1,11 @@
 ---
-title: 实用的在线网站
+title: 实用的网站及工具
 date: 2019-12-25 21:48:26
-img: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/art_web_cover.jpg
+img: http://q3996b08i.bkt.clouddn.com/embedded-study/img_picture1.png
 top: true
 cover: true
 toc: true
-summary: 一些实用的在线网站收藏
+summary: 一些实用的网站及工具收藏
 categories: 记录
 tags: 
 	- 效率工具

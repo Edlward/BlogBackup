@@ -1,6 +1,7 @@
 ---
 title: Hello Hexo
 date: 2019-7-24 18:55:21
+img: http://q3996b08i.bkt.clouddn.com/embedded-study/hexo_github.jpg
 cover: true
 toc: true
 summary: Hexo博客搭建过程记录

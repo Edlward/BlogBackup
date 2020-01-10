@@ -1,10 +1,10 @@
 ---
 title: 观想之宙
 date: 2019-06-28 21:15:19
-img: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/galaxy1.jpg
+img: https://ina-blog.oss-cn-shanghai.aliyuncs.com/galaxy1.jpg
 top: false
 cover: true
-coverImg: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/galaxy.jpg
+coverImg: https://ina-blog.oss-cn-shanghai.aliyuncs.com/galaxy.jpg
 toc: true
 summary: 我看到了我的爱恋
 categories: 阅读

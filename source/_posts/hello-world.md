@@ -114,4 +114,4 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 ## 6.绑定域名CNAME
 - 当你点击保存的时候 Github Pages 会自动帮你生成一个 CNAME 的文件在根目录，里面的内容就是你绑定的域名地址
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/CNAME.png)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/CNAME.png)

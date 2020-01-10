@@ -1,17 +1,17 @@
 ---
 title: DJI大疆嵌入式秋招记录
 date: 2019-10-1 16:13:27
-img: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_offer1.png
+img: https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_offer1.png
 top: true
 cover: true
-coverImg: http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_Logo.jpg
+coverImg: https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_Logo.jpg
 toc: true
 summary: 2020大疆秋招嵌入式完整流程整理
 categories: 记录
 tags: 
 	- 记录
 ---
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_offer1.png)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_offer1.png)
 
 > 写在前面的话：2020秋招形式严峻，此间过程也是十分心酸，能拿到理想的offer，也是十分幸运，希望“疆”来继续up~。
 
@@ -46,7 +46,7 @@ tags:
     9. 具备较强的学习、沟通表达能力和良好的团队合作精神；
     10. 具有无人机、机器人开发经验或有各类电子设计竞赛经验者优
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI2.jpg)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI2.jpg)
 
 ### 1.2 [投递网址](https://we.dji.com/zh-CN)
 - 网申投递简历主要为以下几个方面：
@@ -62,7 +62,7 @@ tags:
 - 可以关注【**DJI大疆招聘**】公众号，可以随时查看自己的招聘进展
 - 有时候招聘信息邮件会被邮箱误认为“垃圾邮件”，因此大家也需要经常看看“垃圾邮件”中有没有招聘信息的邮件
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI1.jpg)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI1.jpg)
 
 ## 2.在线测评
 `2019.7.27（我的测评时间）`
@@ -132,7 +132,7 @@ tags:
 - 有什么想问的
 - ...
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI3.jpg)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI3.jpg)
 
 ## 6.终面
 `2019.9.8 13:00（我的终面时间）`
@@ -177,7 +177,7 @@ tags:
     - 2019.12.25拿到mini，期待已久！这天刚好是圣诞节&生日，算是圣诞&生日礼物了 :gift:
     - 一定是特别的缘分......
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/mavic-mini.jpg)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/mavic-mini.jpg)
 
 
 - `mentor`
@@ -186,11 +186,11 @@ tags:
 
 - 邮箱整理：
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_email1.png)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_email1.png)
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_email2.png)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_email2.png)
 
-![](http://q2lxl3ulw.bkt.clouddn.com/ian-blog-images/DJI_offer2.png)
+![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_offer2.png)
 
 
 

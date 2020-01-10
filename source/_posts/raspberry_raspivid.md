@@ -1,7 +1,7 @@
 ---
 title: CSI摄像头推流
 date: 2018-11-28 20:16:08
-img: http://q3996b08i.bkt.clouddn.com/embedded-study/raspberrypi2.jpg
+img: https://ian-study.oss-cn-shanghai.aliyuncs.com/raspberrypi2.jpg
 top: false
 toc: true
 summary: 树莓派推流CSI摄像头推流

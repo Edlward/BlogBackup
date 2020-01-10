@@ -1,7 +1,7 @@
 ---
 title: MJPG-Streamer推流测试
 date: 2018-12-02 16:17:57
-img: http://q3996b08i.bkt.clouddn.com/embedded-study/raspberrypi_board1.jpg
+img: https://ian-study.oss-cn-shanghai.aliyuncs.com/raspberrypi_board1.jpg
 top: false
 toc: true
 summary: 树莓派MJPG-Streamer双摄推流

@@ -1,7 +1,7 @@
 ---
 title: Nand Flash编程
 date: 2019-12-27 20:39:46
-img: http://q3996b08i.bkt.clouddn.com/embedded-study/img_cirtuit.jpg
+img: https://ian-study.oss-cn-shanghai.aliyuncs.com/img_cirtuit.jpg
 top: false
 toc: true
 summary: S3C2440 Nand Flash编程
@@ -15,7 +15,7 @@ tags:
 
 ### 1.1 读芯片ID时序
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_timing.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_timing.png)
 
  简化为4个步骤：
  - 1.使能片选
@@ -48,12 +48,12 @@ void scan_nand_flash(void)
 	printf("5th   cycle: 0x%x\n\r",id_info[4]);
 ```
 ### 1.2 由ID数据获得芯片参数
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_scan_test.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_scan_test.png)
 
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_chip_params.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_chip_params.png)
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_scan_test2.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_scan_test2.png)
 
 - ID信息的第4字节为`0x95`
 - 页大小与id_info[3]最低2位有关，可得**页大小**为：`2KB`
@@ -66,7 +66,7 @@ void scan_nand_flash(void)
 > 目标：实现从NAND FLASH中启动，重定位所有数据至SDRAM，并实现读取芯片ID数据
 
 ### 2.1 NAND内部结构分析
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_struct.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_struct.png)
 
 - OOB：out of bank（在bank之外）
 由上图可得：
@@ -75,7 +75,7 @@ void scan_nand_flash(void)
 - 1Device = 2048 * Blocks = 256MB + 8MB
 
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_data_store.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_data_store.png)
 
 - OOB区的作用：因为nand的缺点是会发生`“位反转”`，为了解决这个问题，nand中的OOB区，**用于校验数据区的数据是否发生错误**，当有错误时，可以恢复数据。（其本身不存储数据）
 - 因为OOB中并不存放数据，只是用于校验数据区是否发生错误，因此当CPU读取Nand Flash**第2048**个数据，该数据为 `Page1中的第0个byte`
@@ -83,14 +83,14 @@ void scan_nand_flash(void)
 
 ### 2.2 地址序列与时序
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_addr.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_addr.png)
 - 由地址序列可以看出：发出地址信号共需5个周期，前2个周期发出列地址（Column Address），后3个周期发出行地址（Row Address）
 - 地址线序列有一些位是没有用到的，其目的也是以后兼容更大芯片的nand falsh
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_read_timing.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_read_timing.png)
 
 
 > Nand Flash内部结构展开大致如下：
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_struct2.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_struct2.png)
 
 ### 2.3 读数据流程
 - 1.发出片选信号
@@ -116,7 +116,7 @@ void scan_nand_flash(void)
 
 
 ### 2.5 NAND等待就绪
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_nfcon.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_nfcon.png)
 
 - 当NFSATA[0] = 0时，表示正忙
 - 当NFSATA[0] = 1时，表示就绪
@@ -295,9 +295,9 @@ void read_nand_flash(void)
 
 }
 ```
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_bin_data.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_bin_data.png)
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_read_test2.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_read_test2.png)
 由上测试可知读取成功
 
 
@@ -311,7 +311,7 @@ void read_nand_flash(void)
 - 5.等待就绪（等待擦除完成）
 - 6.禁止片选
 
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_erase_timing.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_erase_timing.png)
 
 
 ### 3.2 地址和参数合法性
@@ -403,7 +403,7 @@ void erase_nand_flash(void)
  	}
 }
 ```
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_erase_test.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_erase_test.png)
 
 ## 4.写数据 
 
@@ -415,7 +415,7 @@ void erase_nand_flash(void)
 - 5.再发送0x10命令
 - 6.等待就绪（等待擦除完成）
 - 7.禁止片选
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_wriet_timing.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_wriet_timing.png)
 
 
 ### 4.2 写数据函数
@@ -484,13 +484,13 @@ void write_nand_flash(void)
 }
 ```
 - 在`0x100000`地址写入“hello,world!”
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_write_test.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_write_test.png)
 - 读取数据
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_read_test3.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_read_test3.png)
 
 
 ## 5.判断是否为坏块
-![](http://q3996b08i.bkt.clouddn.com/embedded-study/nand_data_store.png)
+![](https://ian-study.oss-cn-shanghai.aliyuncs.com/nand_data_store.png)
 
 > 通过读取OOB区的第0个字节（即第`2048`个字节）来判断，如果不是0xFF，为坏块，否则不是
 

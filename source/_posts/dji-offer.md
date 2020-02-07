@@ -2,7 +2,7 @@
 title: DJI大疆嵌入式秋招记录
 date: 2019-10-1 16:13:27
 img: https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_offer1.png
-top: true
+top: false
 cover: true
 coverImg: https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_Logo.jpg
 toc: true
@@ -162,7 +162,7 @@ tags:
 > 面试现场，可以准备一份作品介绍（有图有真相），也利用自身清晰的讲述项目
 > 需要多了解面试公司的企业文化、产品（产品的优缺点、同类产品的比较）、优势领域
 
-
+![终面](https://ina-blog.oss-cn-shanghai.aliyuncs.com/dji_campus_finally2.jpg)
 
 ## 7.offer阶段
 - 2019.9.20
@@ -184,6 +184,12 @@ tags:
     - 一般为入职的老员工（良师益友）
 
 
+## 9.后记
+终面前一天到的深圳，在青年旅社中收拾好床榻，就开始准备终面的一些问题和自我介绍，梳理项目中的细节，睡前模拟面试中会问到的问题。第二天中午去**DJI大疆展厅**参加终面，由于稍微紧张，一些问题没有很清晰的回答出来，不过整体感觉还不错，达到了自己的预期。
+面试完，去吃了比较有特色的**椰子乌鸡汤**，有椰果的奶香，汤也有一种清甜。而后去了著名的**华强北**逛了逛，晚上去了**深圳市民广场**。
+
+![深圳市民广场](https://ina-blog.oss-cn-shanghai.aliyuncs.com/shenzhen_civil_square2.jpg)
+
 - 邮箱整理：
 
 ![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_email1.png)
@@ -191,6 +197,8 @@ tags:
 ![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_email2.png)
 
 ![](https://ina-blog.oss-cn-shanghai.aliyuncs.com/DJI_offer2.png)
+
+
 
 
 

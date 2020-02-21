@@ -508,9 +508,9 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: www.zengwangfa.top
+  text: 闽ICP备20001576号
   
 Plugins:
 - hexo-generator-baidu-sitemap

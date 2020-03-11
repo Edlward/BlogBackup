@@ -1,6 +1,15 @@
-[{
+[
+{
 	"name": "Five Hundred Miles",
 	"artist": "Justin Timberlake,Carey Mulligan,Stark Sands",
 	"url": "/medias/musics/Five-Hundred-Miles.mp3",
 	"cover": "/medias/musics/Five-Hundred-Miles-Cover.jpg"
-}]
+},
+
+{
+	"name": "老男孩",
+	"artist": "筷子兄弟",
+	"url": "/medias/musics/筷子兄弟-老男孩 (live).mp3",
+	"cover": "/medias/musics/老男孩cover.jpg"
+}
+]
